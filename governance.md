@@ -251,6 +251,7 @@ This is a very powerful role and should only be used for a few highly trusted st
 	
 
 | GitHub Team             | Permissions                         | Notes                                                         |
+|-------------------------|-------------------------------------|---------------------------------------------------------------|
 | `<project>`             | Parent team for other project teams |                                                               |
 | `<project>-committers`  | Write                               |                                                               |
 | `<project>-maintainers` | Maintain                            |                                                               |
