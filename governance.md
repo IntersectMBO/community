@@ -79,10 +79,13 @@ The general decision-making process is:
    1. Voting: the relevant group votes explicitly (this is an example of consensus-building since it aims to get the group to come to a more explicit consensus)
 3. Escalation: the issue is raised to a higher decision-making body
 
-**Rationale**
+<details>
+<summary><b>Rationale</b></summary>
 
 Consensus-seeking decision-making lets us mostly use the consensus-based methods that are common in open-source projects, which tend to operate smoothly and with low overhead the majority of the time. 
 But in cases where consensus cannot be found, or where there are fundamental conflicts with the principles, we have an explicit escalation path that allows us to still make decisions.
+
+</details>
 
 <details>
 <summary><b>Examples</b></summary>
@@ -111,10 +114,13 @@ The standard voting process is for every voter to issue one of the following vot
 Normally, a majority should be sufficient to decide in favour of a motion, but in some circumstances it may be appropriate to treat any negative vote as a veto. 
 This is because the point is to elicit a group consensus: if the vote does not seem like enough for the group to settle on the outcome, then it may be necessary to escalate.
 
-**Rationale**
+<details>
+<summary><b>Rationale</b></summary>
 
 Voting is a standard and easy way of building consensus.
 It is also flexible: it can be used to make a hard decision, or just used as way of gauging consensus.
+
+</details>
 
 <details>
 <summary><b>Examples</b></summary>
@@ -139,11 +145,14 @@ The default escalation pathway is:
 Anyone can escalate an issue. 
 Issues raised by Committers should be considered by the relevant body, issues raised by other people may be considered at the discretion of that body. 
 
-**Rationale**
+<details>
+<summary><b>Rationale</b></summary>
 
 In order to maintain Legitimacy, projects *must* remain accountable to the Technical Steering Committee (TSC).
 That means that the TSC has to operate as the final decision-making body also for disputes.
 But the TSC cannot arbitrate everything, so we have to have a sensible chain of decision-making bodies between an individual contributor and the TSC.
+
+</details>
 
 <details>
 <summary><b>Examples</b></summary>
@@ -205,7 +214,8 @@ There are three primary roles associated with doing development work.
 2. Committers are people who have been given commit access to the project. Committers are also required to participate in the project governance process - the two go together.
 3. Maintainers are individuals who have contributed in a sustained and substantial way to the project, and who commit to keeping the project healthy. Maintainers mostly have additional responsibilities and little additional power. They are likely to be influential, but this is because influential people should be made Maintainers, rather than vice versa.
 
-**Rationale**
+<details>
+<summary><b>Rationale</b></summary>
 
 * Maintainers
    * We know there are likely to be paid maintainers, it is helpful to recognize this in some official way.
@@ -218,6 +228,8 @@ There are three primary roles associated with doing development work.
    * This does not mean that there may not be more traditional team structures associated with the project contributors. 
       * For example, IOI may have a team working on `cardano-ledger` and that team will probably have a team lead and be organized in typical company fashion. But the IOI-appointed `cardano-ledger` team lead does not have any special status when it comes to making decisions for the `cardano-ledger` Intersect project.
       * As an example of how this works today, consider GHC. IOG has a GHC team, with an appointed team lead. But the IOG GHC lead doesn’t have any particular sway in the leadership of GHC-the-OSS-project, which is led by its major contributors and its BDFL. In practice, as a good contributor the IOG GH Clead does have some voice, especially in areas where he works a lot, but this is more about his history of contribution than the fact that he is the IOG GHC lead.
+
+</details>
 
 #### Administrative
 
@@ -255,7 +267,8 @@ This *must* be on a standard Intersect platform (TBD).
 
 Projects should also have another public and durable location for recording information about governance (e.g. project-specific policies), such as a wiki.
 
-**Rationale**
+<details>
+<summary><b>Rationale</b></summary>
 
 Following the principle of Transparency and to enable voting, projects need to have a communication channel that is accessible and public. 
 In order to ensure that discussion remains available for the long term, it should also be durable (i.e. no message expiry, ideally not reliant on ephemeral hosted or paid services).
@@ -264,14 +277,19 @@ It is quite beneficial for all the projects to use the same communications platf
 This minimizes friction between projects, and makes it easier for people to know how to contact them.
 That is why the choice of platform is specified as a "must".
 
+</details>
+
 ## Meta-projects
 
 A meta-project is a grouping of projects. 
 Meta-projects exist to facilitate cross-project collaboration where that is necessary. 
 
-**Rationale**
+<details>
+<summary><b>Rationale</b></summary>
 
 Intersect owns some large, complex projects such as Cardano, and so some framework for cross-project coordination and decision-making is essential.
+
+</details>
 
 <details>
 <summary><b>Examples</b></summary>
@@ -303,7 +321,8 @@ A TOC should be associated with a meta-project; a meta-project may have multiple
 
 The meta-project PMC may escalate issues to a TOC as appropriate in lieu of escalating to the TSC.
 
-**Rationale**
+<details>
+<summary><b>Rationale</b></summary>
 
 The Technical Steering Committee (TSC) is ultimately responsible for the technical direction of Intersect projects, and as such is the final point of escalation for issues.
 However, the TSC may not be equipped to handle all such issues, either because it lacks expertise or simply because they require too much attention. 
@@ -315,6 +334,8 @@ TOCs are particularly necessary for complex meta-projects like Cardano: we need 
 TOCs are scoped to a meta-project mostly just to reduce clutter and have meta-projects as the top-level unit of organisation.
 
 TOC members are appointed by the TSC because the TOC is operating as delegated representative of the TSC. Nonetheless, they should still be chosen following the principles, notably Merit.
+
+</details>
 
 <details>
 <summary><b>Examples</b></summary>
