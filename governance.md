@@ -4,7 +4,7 @@
 
 ### Terminology
 
-Each of these is defined in their respective sections, but we will want to talk about them in examples before they are defined.
+Each of these terms is defined in their respective sections, but we will want to talk about them in examples before they are defined.
 
 * Project: a software project, one or more source repositories with a given set of committers
 * Meta-project: a grouping of projects
@@ -44,7 +44,8 @@ Similarly, projects and people are encouraged to augment the policy if they thin
 There are a few exceptions, and these are indicated by the use of "must".
 Policies stated with "must" are mostly non-negotiable, unless there is a very good reason.
 
-**Examples**:
+<details>
+<summary><b>Examples</b></summary>
 
 * The PMC for a meta-project wants to give the person acting as release manager a veto on votes to perform a release.
    * This is perfectly logical and a good way to help ensure the quality of the release.
@@ -64,6 +65,8 @@ Policies stated with "must" are mostly non-negotiable, unless there is a very go
 * The PMC wants to elect a “Benevolent Dictator For Life” (BDFL) and then have them make final decisions without recourse to the TSC.
    * This is problematic: without the TSC as part of the escalation chain we cannot be sure that we maintain the Legitimacy of the project. Having a BDFL is also bad for Merit (in the future other contributors may be more meritorious) and Sustainability (better to have a wider set of competent contributors)
 
+</details>
+
 ## Decision-making
 
 Decision making should generally be done in a consensus-seeking manner. 
@@ -81,7 +84,8 @@ The general decision-making process is:
 Consensus-seeking decision-making lets us mostly use the consensus-based methods that are common in open-source projects, which tend to operate smoothly and with low overhead the majority of the time. 
 But in cases where consensus cannot be found, or where there are fundamental conflicts with the principles, we have an explicit escalation path that allows us to still make decisions.
 
-**Examples**
+<details>
+<summary><b>Examples</b></summary>
 
 * An established committer makes a PR, and…
    * Merges it themselves
@@ -91,6 +95,8 @@ But in cases where consensus cannot be found, or where there are fundamental con
       * This is generally a good idea. This is also a small example of consensus-building by seeking input from another contributor on whether the idea is good or not.
    * Brings it to the PMC meeting for discussion before merging
       * This is a good idea if the contributor feels unsure about whether the change is going to be agreeable or not. Discussion might also happen on other communications channels.
+
+</details>
 
 ### Voting
 
@@ -110,10 +116,13 @@ This is because the point is to elicit a group consensus: if the vote does not s
 Voting is a standard and easy way of building consensus.
 It is also flexible: it can be used to make a hard decision, or just used as way of gauging consensus.
 
-**Examples**
+<details>
+<summary><b>Examples</b></summary>
 
 * A project wants to adopt an auto-formatter. Much discussion is had and there is no consensus, but nobody is going to be that put out by not getting their favourite outcome, so the PMC just votes and takes the majority option.
 * The PMC votes on whether to accept a controversial patch. There is a majority, but several of the most knowledgeable committers vote against, citing security concerns. The PMC does not feel like they have consensus despite the majority and decides to escalate.
+
+</details>
 
 ### Escalating issues
 
@@ -136,7 +145,8 @@ In order to maintain Legitimacy, projects *must* remain accountable to the Techn
 That means that the TSC has to operate as the final decision-making body also for disputes.
 But the TSC cannot arbitrate everything, so we have to have a sensible chain of decision-making bodies between an individual contributor and the TSC.
 
-**Examples**
+<details>
+<summary><b>Examples</b></summary>
 
 * Two contributors disagree about whether a patch should be accepted or not.
    * This may just be a simple disagreement that should be escalated to the PMC, but might go further than that depending on how tricky the issue is.
@@ -148,6 +158,8 @@ But the TSC cannot arbitrate everything, so we have to have a sensible chain of 
    * This is a conflict between Quality/Sustainability and Transparency
 * A well-regarded contributor is a member of the PMC but consistently behaves badly
    * This is a conflict between Merit and Sustainability
+
+</details>
 
 ## Projects
 
@@ -261,9 +273,12 @@ Meta-projects exist to facilitate cross-project collaboration where that is nece
 
 Intersect owns some large, complex projects such as Cardano, and so some framework for cross-project coordination and decision-making is essential.
 
-**Examples**
+<details>
+<summary><b>Examples</b></summary>
 
 * Project X has three dependencies Y, Z, and Q. In addition, there is project R which provides tools for deploying X, and some individuals who act as full-time release managers for X. In this instance it would be appropriate to form a meta-project to collect all of this work.
+
+</details>
 
 ### Project Management Committee
 
@@ -301,9 +316,12 @@ TOCs are scoped to a meta-project mostly just to reduce clutter and have meta-pr
 
 TOC members are appointed by the TSC because the TOC is operating as delegated representative of the TSC. Nonetheless, they should still be chosen following the principles, notably Merit.
 
-**Examples**
+<details>
+<summary><b>Examples</b></summary>
 
 * The Cardano project will probably need at least one TOC to handle cross-cutting design issues, decide on issues with CIPs that become apparent during implementation, etc.
+
+</details>
 
 ### Communications
 
