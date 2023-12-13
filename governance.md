@@ -1,4 +1,4 @@
-# Intersect Open Source Governance Policy
+# Open Source Governance Policy
 
 ## Meta 
 
